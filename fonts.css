@@ -1,0 +1,12 @@
+
+@font-face {
+    font-family: 'font0f6e082f42f5247d82c3ade9c2a8f928';
+        
+        src:    url('https://nomail.com.ua/files/eot/0f6e082f42f5247d82c3ade9c2a8f928.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/0f6e082f42f5247d82c3ade9c2a8f928.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/0f6e082f42f5247d82c3ade9c2a8f928.woff2') format('woff2');
+    }
+    
+    @font-face { font-family: 'Gilroy-ExtraBold';  src: local('Gilroy-ExtraBold'), url('https://nomail.com.ua/files/woff/0f6e082f42f5247d82c3ade9c2a8f928.woff') format('woff'); }
+    
+    
