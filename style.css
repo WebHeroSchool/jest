@@ -126,7 +126,7 @@ body {
 
 .welcome__title {
   text-align: center;
-  margin-top:  calc(35px + (65 - 35) * ((100vw - 320px) / (1440 - 320)));
+  margin-top: calc(35px + (65 - 35) * ((100vw - 320px) / (1440 - 320)));
 }
 
 .welcome__title_text {
@@ -141,8 +141,7 @@ body {
 
 .welcome__body {
   display: flex;
-
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .welcome__card {
@@ -152,23 +151,25 @@ body {
 
 .welcome__card:nth-child(1) {
   margin-top: 25px;
+  max-width: 320px;
 }
 
 .welcome__card:nth-child(2) {
   margin-top: 22px;
   margin-left: 113px;
   margin-right: 88px;
+  max-width: 320px;
 }
 
 .welcome__card:nth-child(3) {
   margin-top: 25px;
+  max-width: 345px;
 }
 
 .welcome__card:nth-child(1) > h1 {
-  
-margin-top: 0px;
-  
-margin-bottom: 0;
+  margin-top: 0px;
+
+  margin-bottom: 0;
 }
 
 .welcome__card:nth-child(2) > h1 {
@@ -246,6 +247,74 @@ margin-bottom: 0;
 
   align-items: center;
 }
+.wriper {
+}
+.experience__description_block {
+  max-width: 581px;
+
+  margin-top: 3px;
+
+  margin-left: 26px;
+}
+.experience {
+}
+.experience__block:nth-child(2n){
+  text-align: right;
+  margin-left: auto;
+  flex-direction: row-reverse;
+  margin-top: 63px;
+}
+.experience__description_block:nth-child(2n)>h2{}
+.experience__heder {
+}
+.experience__title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 37px;
+  /* identical to box height */
+  color: #585858;
+  margin-top: 165px;
+  text-align: center;
+}
+.experience__main {
+}
+.experience__block {
+  display: flex;
+  text-align: left;
+  margin-top: 25px;
+}
+.experience__img {
+}
+.experience__text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  color: #585858;
+  margin-bottom: 8px;
+  /* max-width: 373px; */
+}
+.experience__description {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 0px;
+  color: #585858;
+  max-width: 435px;
+}
+.descriptionb__description {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #585858;
+}
 
 @media (max-width: 768px) {
   .menu__item {
@@ -283,41 +352,38 @@ margin-bottom: 0;
   .welcome__card:nth-child(1) {
     margin-top: 25px;
   }
-  
-  
-  
+
   .welcome__card:nth-child(3) {
     margin-top: 18px;
   }
-  
+
   .welcome__card:nth-child(1) > h1 {
-    
-margin-top: 0px;
-    
-margin-bottom: 0px;
+    margin-top: 0px;
+
+    margin-bottom: 0px;
   }
-  
+
   .welcome__card:nth-child(2) > h1 {
     margin-bottom: 0;
     margin-top: 3px;
   }
-  
+
   .welcome__card:nth-child(3) > h1 {
     margin-top: 2px;
     line-height: 21px;
     margin-bottom: 0;
   }
-  
+
   .welcome__card:nth-child(1) > p {
     white-space: pre-line;
     margin-top: 3px;
   }
-  
+
   .welcome__card:nth-child(2) > p {
     margin-top: 3px;
     margin-left: 3px;
   }
-  
+
   .welcome__card:nth-child(3) > p {
     margin-top: 4px;
     /* max-width: 258px; */
