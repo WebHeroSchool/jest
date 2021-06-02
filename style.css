@@ -464,11 +464,31 @@ body {
   .question__img {
     margin-left: 19px;
   }
-  input::placeholder{
+  input::placeholder {
     font-size: 10px;
-line-height: 12px;
+    line-height: 12px;
   }
-
+  .question__block {
+    padding-bottom: 31px;
+  }
+  .social {
+    /* max-width: 320px; */
+    padding-bottom: 17px;
+  }
+  .social__img {
+    margin-top: 14px;
+  }
+  .question__input::placeholder {
+    font-size: 10px;
+    line-height: 12px;
+    padding-left: 23px;
+  }
+  .social__copyright {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 44px;
+    padding-bottom: 0px;
+  }
   .scroll {
     display: block;
 
@@ -502,8 +522,11 @@ line-height: 12px;
   }
   .social__title {
     font-size: 14px;
-
     line-height: 16px;
+    text-align: center;
+    max-width: 220px;
+    margin: 0 auto;
+    margin-top: 32px;
   }
   .social__linkedin {
     width: 35px;
